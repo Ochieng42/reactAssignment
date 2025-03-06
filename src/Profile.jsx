@@ -24,7 +24,7 @@ function Profile() {
 
     return (
         <div>
-            <form onSubmit={handleSubmit} class="form">
+            <form onSubmit={handleSubmit} >
                 <div>
                     <label>Name:</label>
                     <input
